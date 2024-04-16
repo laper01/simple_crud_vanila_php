@@ -1,148 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Form Input Data</title>
-  <style>
-    /* General styling */
-    body {
-      font-family: sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
-    /* Header */
-    .header {
-      background-color: #f0f0f0;
-      padding: 20px;
-      text-align: center;
-    }
-
-    .header img {
-      width: 100px;
-      height: auto;
-    }
-
-    /* Form Input */
-    .form-input {
-      padding: 20px;
-    }
-
-    .form-input label {
-      display: block;
-      margin-bottom: 5px;
-    }
-
-    .form-input input,
-    .form-input select,
-    .form-input textarea {
-      width: 100%;
-      padding: 10px;
-      border: 1px solid #ccc;
-      box-sizing: border-box;
-    }
-
-    .form-input textarea {
-      height: 100px;
-      resize: vertical;
-    }
-
-    /* Button Save */
-    .button-save {
-      padding: 10px 20px;
-      background-color: #007bff;
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
-
-    /* Result Table */
-    .result-table {
-      margin-top: 20px;
-      border-collapse: collapse;
-      width: 100%;
-    }
-
-    .result-table th,
-    .result-table td {
-      padding: 8px;
-      border: 1px solid #ccc;
-      text-align: left;
-    }
-  </style>
-</head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Test Full Stack</title>
+<link rel="stylesheet" href="styles.css">
+</hyead>
 <body>
-  <div class="header">
+
+<!-- Komponen 1: Header -->
+<header>
     <img src="https://dashindo.com/testfullstack/derpface.png" alt="Logo">
-  </div>
+</header>
 
-  <div class="form-input">
-    <form id="inputForm">
-      <label for="nama">Nama:</label>
-      <input type="text" id="nama" name="nama" required>
-
-      <label for="jenis">Jenis:</label>
-      <select id="jenis" name="jenis" required>
-        <option value="manusia">Manusia</option>
-        <option value="elf">Elf</option>
-        <option value="tumbuh-tumbuhan">Tumbuh-tumbuhan</option>
-      </select>
-
-      <label for="hp">HP:</label>
-      <input type="number" id="hp" name="hp" pattern="[0-9]*">
-
-      <label for="komentar">Komentar:</label>
-      <textarea id="komentar" name="komentar"></textarea>
-
-      <button type="submit" class="button-save">Simpan</button>
+<!-- Komponen 2: Form Input -->
+<section class="form-container">
+    <form id="input-form">
+        <div class="form-group">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+        </div>
+        <div class="form-group">
+            <label for="jenis">Jenis:</label>
+            <select id="jenis" name="jenis" required>
+                <option value="Manusia">Manusia</option>
+                <option value="Elf">Elf</option>
+                <option value="Tumbuhan">Tumbuhan</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="hp">HP:</label>
+            <input type="text" id="hp" name="hp">
+        </div>
+        <div class="form-group">
+            <label for="komentar">Komentar:</label>
+            <textarea id="komentar" name="komentar" rows="4"></textarea>
+        </div>
+        <button type="submit" id="save-btn">Save</button>
     </form>
-  </div>
+</section>
 
-  <div class="result-table">
-    <table>
-      <thead>
-        <tr>
-          <th>Nama</th>
-          <th>Jenis</th>
-          <th>HP</th>
-          <th>Komentar</th>
-        </tr>
-      </thead>
-      <tbody>
+<!-- Komponen 4: Hasil input -->
+<section class="result-container">
+    <table id="result-table">
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Jenis</th>
+                <th>HP</th>
+                <th>Komentar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data akan ditambahkan secara dinamis menggunakan JavaScript -->
         </tbody>
     </table>
-  </div>
+</section>
 
-  <script>
-const inputForm = document.getElementById('inputForm');
-const resultTable = document.querySelector('.result-table tbody');
-
-inputForm.addEventListener('submit', (event) => {
-  event.preventDefault();
-
-  const nama = document.getElementById('nama').value;
-  const jenis = document.getElementById('jenis').value;
-  const hp = document.getElementById('hp').value || '-';
-  const komentar = document.getElementById('komentar').value;
-
-  const newRow = resultTable.insertRow();
-  const namaCell = newRow.insertCell();
-  const jenisCell = newRow.insertCell();
-  const hpCell = newRow.insertCell();
-  const komentarCell = newRow.insertCell();
-
-  namaCell.textContent = nama;
-  jenisCell.textContent = jenis;
-  hpCell.textContent = hp;
-  komentarCell.textContent = komentar;
-
-  // Clear the input fields
-  inputForm.reset();
-});
-
-
-      
-</script>
+<script src="script.js"></script>
 </body>
 </html>
