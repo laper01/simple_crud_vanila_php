@@ -3,5 +3,6 @@ CREATE TABLE tabel_data (
     nama VARCHAR(50) NOT NULL,
     jenis VARCHAR(50) NOT NULL,
     hp VARCHAR(14),
-    komentar TEXT
+    komentar TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );

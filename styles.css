@@ -7,10 +7,10 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color: #c0d9ff;
   color: #fff;
   padding: 10px 20px;
-  text-align: center;
+  text-align: left;
 }
 
 header img {
