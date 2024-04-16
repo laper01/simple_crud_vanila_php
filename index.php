@@ -1,12 +1,9 @@
 <?php
-session_start();
-// Koneksi ke database
-$servername = "localhost";
-$username = "superuser"; // Ganti dengan username database Anda
-$password = "kamisama123"; // Ganti dengan password database Anda
-$dbname = "database"; // Ganti dengan nama database Anda
 
-$conn = new mysqli($servername, $username, $password, $dbname);
+require_once 'config.php';
+session_start(); // Add this line
+
+$conn = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
 // Cek koneksi
 if ($conn->connect_error) {
@@ -67,6 +64,13 @@ $result = $conn->query($sql);
                     echo "<div class='alert alert-success' role='alert'>" . $_SESSION['success_message'] . "</div>";
                     // Unset the session variable to remove the message after displaying it
                     unset($_SESSION['success_message']);
+                  }
+
+                  if (isset($_SESSION['error_message'])) {
+                    // Display success message
+                    echo "<div class='alert alert-warning' role='alert'>" . $_SESSION['error_message'] . "</div>";
+                    // Unset the session variable to remove the message after displaying it
+                    unset($_SESSION['error_message']);
                   }
                   ?>
                   <!-- session success -->

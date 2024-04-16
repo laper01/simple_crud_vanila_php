@@ -1,12 +1,9 @@
 <?php
 // Koneksi ke database
+require_once 'config.php';
 session_start(); // Add this line
-$servername = "localhost";
-$username = "superuser"; // Ganti dengan username database Anda
-$password = "kamisama123"; // Ganti dengan password database Anda
-$dbname = "database"; // Ganti dengan nama database Anda
 
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
 // Cek koneksi
 if ($conn->connect_error) {
@@ -60,7 +57,9 @@ function insertData($nama, $jenis, $hp, $komentar, $conn)
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Memeriksa apakah semua field telah diisi
     if (empty($_POST["nama"]) || empty($_POST["jenis"]) || empty($_POST["komentar"])) {
-        echo "Nama, jenis, dan komentar wajib diisi.";
+        $_SESSION['error_message'] = "nama jenis dan komentar wajib diisi.";
+        // Redirect to another page to prevent form resubmission
+        header("Location: /");
     } else {
         // Memasukkan data ke dalam database
         $nama = $_POST["nama"];
