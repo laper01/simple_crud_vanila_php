@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Titik-titik pada Peta</title>
+  <!-- Include Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+  <style>
+    #map {
+      height: 500px;
+    }
+  </style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<!-- Include Leaflet JavaScript -->
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<script>
+  // Initialize Leaflet map
+  var map = L.map('map').setView([-2.5489, 118.0149], 5); // Set initial coordinates and zoom level
+
+  // Add base map layer
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  // Load GeoJSON data
+  fetch('test.geojson',{mode: 'cors'})
+    .then(response => response.json())
+    .then(data => {
+      // Add GeoJSON layer to the map
+      L.geoJSON(data, {
+        onEachFeature: function (feature, layer) {
+          // Bind pop-up with feature properties
+          var popupContent = `
+            <b>Provinsi:</b> ${feature.properties.provinsi}<br>
+            <b>Kecamatan:</b> ${feature.properties.kecamatan}<br>
+            <b>Nm_ws:</b> ${feature.properties.nm_ws}
+          `;
+          layer.bindPopup(popupContent);
+        }
+      }).addTo(map);
+    });
+</script>
+
+</body>
+</html>

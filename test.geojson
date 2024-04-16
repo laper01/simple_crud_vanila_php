@@ -1,0 +1,1064 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.336856000000125,
+          5.540230000000065
+        ]
+      },
+      "properties": {
+        "kl_dat_das": null,
+        "nm_dat_das": "POSKO I",
+        "thn_data": null,
+        "nm_ws": "Aceh Meureudu",
+        "kd_kem": null,
+        "kd_unor": null,
+        "ko_in": null,
+        "nm_balai": "BWS SUMATERA 1 ACEH",
+        "provinsi": "Aceh",
+        "kab_kota": "Kota Banda Aceh",
+        "kecamatan": "Lueng Bata",
+        "kel_desa": "Lueng Bata",
+        "koordntr": "Erichson Febri Sinaga, ST, MT",
+        "jml_alt_brt": "41 Unit",
+        "jns_alt_brt": "Dump Truck (1 Unit), Floating Excavator (1 Unit), Truck Ponton (1 Unit), Mobil Pompa (4 Unit), Crawler Excavator (1 unit), Beckhoe Loader (1 Unit), Pompa Air (30 unit), Motor Boat (2 unit)",
+        "alt_kom": "Radio HT, Email, Handphone",
+        "koord_x": 95.336855999999997,
+        "koord_y": 5.5402300000000002,
+        "created_user": "Admin_BPII",
+        "last_edited_user": "Admin_BPII",
+        "created_date": 1616329897000,
+        "last_modified_date": 1616329897000,
+        "objectid": 1,
+        "kondisi": null,
+        "tgl_inspeksi": null,
+        "kd_prov": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.126233000000184,
+          4.1523369999999886
+        ]
+      },
+      "properties": {
+        "kl_dat_das": null,
+        "nm_dat_das": "POSKO II",
+        "thn_data": null,
+        "nm_ws": "Aceh Meureudu, Woyla Bateu, Alas Singkil",
+        "kd_kem": null,
+        "kd_unor": null,
+        "ko_in": null,
+        "nm_balai": "BWS SUMATERA 1 ACEH",
+        "provinsi": "Aceh",
+        "kab_kota": "Aceh Barat",
+        "kecamatan": "Johan Pahlawan",
+        "kel_desa": "Ujung Baroh",
+        "koordntr": "Azhar, ST, MT",
+        "jml_alt_brt": "0 Unit",
+        "jns_alt_brt": "-",
+        "alt_kom": "Email, Handphone",
+        "koord_x": 96.126232999999999,
+        "koord_y": 4.1523370000000002,
+        "created_user": "Admin_BPII",
+        "last_edited_user": "Admin_BPII",
+        "created_date": 1616329897000,
+        "last_modified_date": 1616329897000,
+        "objectid": 2,
+        "kondisi": null,
+        "tgl_inspeksi": null,
+        "kd_prov": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.723840000000109,
+          5.2060910000001286
+        ]
+      },
+      "properties": {
+        "kl_dat_das": null,
+        "nm_dat_das": "POSKO III",
+        "thn_data": null,
+        "nm_ws": "Aceh Meureudu, Jambo Aye",
+        "kd_kem": null,
+        "kd_unor": null,
+        "ko_in": null,
+        "nm_balai": "BWS SUMATERA 1 ACEH",
+        "provinsi": "Aceh",
+        "kab_kota": "Kota Banda Aceh",
+        "kecamatan": "Kota Juang",
+        "kel_desa": "Cot Gapeu",
+        "koordntr": "Ir. Muh. Joni Khairi, M.Si",
+        "jml_alt_brt": "0 Unit",
+        "jns_alt_brt": "-",
+        "alt_kom": "Email, Handphone",
+        "koord_x": 96.723839999999996,
+        "koord_y": 5.2060910000000007,
+        "created_user": "Admin_BPII",
+        "last_edited_user": "Admin_BPII",
+        "created_date": 1616329897000,
+        "last_modified_date": 1616329897000,
+        "objectid": 3,
+        "kondisi": null,
+        "tgl_inspeksi": null,
+        "kd_prov": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.673791000000051,
+          3.542246000000091
+        ]
+      },
+      "properties": {
+        "kl_dat_das": null,
+        "nm_dat_das": "Tim Satuan Tugas Penanggulangan Bencana Balai Wilayah Sungai Sumatera II",
+        "thn_data": null,
+        "nm_ws": "WS. BELAWAN-ULAR-PADANG\nWS. TOBA-ASAHAN\nWS. BATANG NATAL-BATANG BATAHAN",
+        "kd_kem": null,
+        "kd_unor": null,
+        "ko_in": null,
+        "nm_balai": "BWS SUMATERA 2 SUMUT - OK",
+        "provinsi": "Sumatera Utara",
+        "kab_kota": "Kota Medan",
+        "kecamatan": "Medan Johor",
+        "kel_desa": "Pangkalan Masyhur",
+        "koordntr": "Kepala Satker OP SDA Sumatera II\nBapak Arron Lumbanbatu, S.T., M.Si",
+        "jml_alt_brt": "5",
+        "jns_alt_brt": "1. Crawler Excavator + Attachment - PINDAD EXCAVA 200\n2. Crawler Excavator + Attachment - AMPHIBIOUS EXCAVATOR MINI / LONG ARM 5 TON\n3. Crawler Excavator + Attachment - SUMITOMO / SH210LC-5LR\n4. Dump Truk - HINO 130 PS MD-L\n5. Dump Truk - HINO 130 PS HD 6,8 PS",
+        "alt_kom": "Fixed Line di nomor\n061-7869404",
+        "koord_x": 98.673790999999994,
+        "koord_y": 3.5422460000000004,
+        "created_user": "Admin_BPII",
+        "last_edited_user": "Admin_BPII",
+        "created_date": 1616329897000,
+        "last_modified_date": 1616329897000,
+        "objectid": 4,
+        "kondisi": null,
+        "tgl_inspeksi": null,
+        "kd_prov": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.94865400000003,
+          1.1093550000001642
+        ]
+      },
+      "properties": {
+        "kl_dat_das": null,
+        "nm_dat_das": "Posko Banjir Wilayah Sungai Sumatera IV",
+        "thn_data": null,
+        "nm_ws": "Kepulauan Riau",
+        "kd_kem": null,
+        "kd_unor": null,
+        "ko_in": null,
+        "nm_balai": "BWS SUMATERA 4 KEPRI",
+        "provinsi": "Kepulauan Riau",
+        "kab_kota": "Kota Batam",
+        "kecamatan": "Sekupang",
+        "kel_desa": "Sei Harapan",
+        "koordntr": "Satker Operasi dan Pemeliharaan SDA",
+        "jml_alt_brt": null,
+        "jns_alt_brt": null,
+        "alt_kom": null,
+        "koord_x": 103.948654,
+        "koord_y": 1.1093549999999999,
+        "created_user": "Admin_BPII",
+        "last_edited_user": "Admin_BPII",
+        "created_date": 1616329897000,
+        "last_modified_date": 1616329897000,
+        "objectid": 5,
+        "kondisi": null,
+        "tgl_inspeksi": null,
+        "kd_prov": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.88022600000016,
+          -6.2413199999999165
+        ]
+      },
+      "properties": {
+        "kl_dat_das": null,
+        "nm_dat_das": "BBWS CIliwung Cisadane",
+        "thn_data": null,
+        "nm_ws": "WS CILIWUNG CISADANE",
+        "kd_kem": null,
+        "kd_unor": null,
+        "ko_in": null,
+        "nm_balai": "BBWS CILIWUNG CISADANE",
+        "provinsi": "DKI Jakarta",
+        "kab_kota": "Jakarta Timur",
+        "kecamatan": "Makasar ",
+        "kel_desa": "Cipinang Melayu",
+        "koordntr": "Jaya Sampurna, S.ST., M. Tech\n(Kabid OP)",
+        "jml_alt_brt": "42",
+        "jns_alt_brt": "9 Pompa Mobil 1 Unit (Toyota Dyna), \nKap. Pompa 2x80 l/det\nGenset 45 Kva,\n1 Pompa Mobil 1 Unit (Hino Dutro), \nKap. Pompa 2x80 l/det\n5 Dump Truck Hino 300\nKapasitas Bak 6 m3\n1 Tadano Mobile Crane\nDaya Angkat 50 Ton\n2 Hino FG Half Crane\nDaya Angkat 5 Ton\n3 Hitachi Long Arm\nBucket 0.45 m3, Engine Rated Power 125kw, Operating Weight 22.200kg\n2 Hitachi Short Arm\nBucket 0.80 m3 Engine Rated Power 125kw, Operating Weight 19.800kg\n1 Yanmar Mini Excavator\nBucket 0,16 m3, Engine Rated Power 33.5kw, Operating Weight 5.285kg\n8 Perahu Karet\nKapasitas Bak 5 Orang;\n1 UltraTrex Amphibius Short Arm\nBucket 0,18 m3, Engine Rated Power 28.4kw, Operating Weight 9.900kg;\n1 Ultratrex Amphibius Mini Excavator\nBucket 0,10 m3, Engine Rated Power 21.5kw, Operating Weight 8.250kg;\n1 Ultratrex Amphibius Long Arm\nBucket 0,33 m3, Engine Rated Power 42kw, Operating Weight 17.200kg;\n2 Genset\n1 Unit @13 Kva dan \n1 Unit @9 Kva;\n5 Mobile Lightening\nDaya 1250 watt\nKapasitas Tangki 114 ltr/65 jam",
+        "alt_kom": "Radio\nTelepon Seluler",
+        "koord_x": 106.88022600000001,
+        "koord_y": -6.24132,
+        "created_user": "Admin_BPII",
+        "last_edited_user": "Admin_BPII",
+        "created_date": 1616329897000,
+        "last_modified_date": 1616329897000,
+        "objectid": 6,
+        "kondisi": null,
+        "tgl_inspeksi": null,
+        "kd_prov": 31
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.62838330000017,
+          -6.1593611109999529
+        ]
+      },
+      "properties": {
+        "kl_dat_das": null,
+        "nm_dat_das": "Kantor Irigasi ",
+        "thn_data": null,
+        "nm_ws": "WS CILIWUNG CISADANE",
+        "kd_kem": null,
+        "kd_unor": null,
+        "ko_in": null,
+        "nm_balai": "BBWS CILIWUNG CISADANE",
+        "provinsi": "banten",
+        "kab_kota": null,
+        "kecamatan": null,
+        "kel_desa": null,
+        "koordntr": null,
+        "jml_alt_brt": null,
+        "jns_alt_brt": null,
+        "alt_kom": "Radio\nTelepon Seluler",
+        "koord_x": 106.6283833,
+        "koord_y": -6.1593611099999999,
+        "created_user": "Admin_BPII",
+        "last_edited_user": "Admin_BPII",
+        "created_date": 1616329897000,
+        "last_modified_date": 1616329897000,
+        "objectid": 7,
+        "kondisi": null,
+        "tgl_inspeksi": null,
+        "kd_prov": 36
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.49596390000011,
+          -7.3545944439999289
+        ]
+      },
+      "properties": {
+        "kl_dat_das": null,
+        "nm_dat_das": "Karangpucung",
+        "thn_data": null,
+        "nm_ws": "Citanduy",
+        "kd_kem": null,
+        "kd_unor": null,
+        "ko_in": null,
+        "nm_balai": "BBWS CITANDUY",
+        "provinsi": "Jawa Barat",
+        "kab_kota": "Banjar",
+        "kecamatan": "Banjar",
+        "kel_desa": "Jajawar",
+        "koordntr": null,
+        "jml_alt_brt": null,
+        "jns_alt_brt": null,
+        "alt_kom": null,
+        "koord_x": 108.49596390000001,
+        "koord_y": -7.3545944399999996,
+        "created_user": "Admin_BPII",
+        "last_edited_user": "Admin_BPII",
+        "created_date": 1616329897000,
+        "last_modified_date": 1616329897000,
+        "objectid": 8,
+        "kondisi": null,
+        "tgl_inspeksi": null,
+        "kd_prov": 32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.68041670000019,
+          -7.3739083329999744
+        ]
+      },
+      "properties": {
+        "kl_dat_das": null,
+        "nm_dat_das": "Cikawung",
+        "thn_data": null,
+        "nm_ws": "Citanduy",
+        "kd_kem": null,
+        "kd_unor": null,
+        "ko_in": null,
+        "nm_balai": "BBWS CITANDUY",
+        "provinsi": "Jawa Barat",
+        "kab_kota": "Ciamis",
+        "kecamatan": "Lakbok",
+        "kel_desa": "Cintaratu",
+        "koordntr": null,
+        "jml_alt_brt": null,
+        "jns_alt_brt": null,
+        "alt_kom": null,
+        "koord_x": 108.68041670000001,
+        "koord_y": -7.3739083299999999,
+        "created_user": "Admin_BPII",
+        "last_edited_user": "Admin_BPII",
+        "created_date": 1616329897000,
+        "last_modified_date": 1616329897000,
+        "objectid": 9,
+        "kondisi": null,
+        "tgl_inspeksi": null,
+        "kd_prov": 32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.55882500000007,
+          -7.3265361109998821
+        ]
+      },
+      "properties": {
+        "kl_dat_das": null,
+        "nm_dat_das": "Bebedahan",
+        "thn_data": null,
+        "nm_ws": "Citanduy",
+        "kd_kem": null,
+        "kd_unor": null,
+        "ko_in": null,
+        "nm_balai": "BBWS CITANDUY",
+        "provinsi": "Jawa Barat",
+        "kab_kota": "Ciamis",
+        "kecamatan": "Cisaga",
+        "kel_desa": "Bangunharja",
+        "koordntr": null,
+        "jml_alt_brt": null,
+        "jns_alt_brt": null,
+        "alt_kom": null,
+        "koord_x": 108.558825,
+        "koord_y": -7.3265361100000002,
+        "created_user": "Admin_BPII",
+        "last_edited_user": "Admin_BPII",
+        "created_date": 1616329897000,
+        "last_modified_date": 1616329897000,
+        "objectid": 10,
+        "kondisi": null,
+        "tgl_inspeksi": null,
+        "kd_prov": 32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.52622220000006,
+          -7.409105555999929
+        ]
+      },
+      "properties": {
+        "kl_dat_das": null,
+        "nm_dat_das": "Binangun",
+        "thn_data": null,
+        "nm_ws": "Citanduy",
+        "kd_kem": null,
+        "kd_unor": null,
+        "ko_in": null,
+        "nm_balai": "BBWS CITANDUY",
+        "provinsi": "Jawa Barat",
+        "kab_kota": "Banjar",
+        "kecamatan": "Pataruman",
+        "kel_desa": "Binangun",
+        "koordntr": null,
+        "jml_alt_brt": null,
+        "jns_alt_brt": null,
+        "alt_kom": null,
+        "koord_x": 108.52622220000001,
+        "koord_y": -7.4091055600000004,
+        "created_user": "Admin_BPII",
+        "last_edited_user": "Admin_BPII",
+        "created_date": 1616329897000,
+        "last_modified_date": 1616329897000,
+        "objectid": 11,
+        "kondisi": null,
+        "tgl_inspeksi": null,
+        "kd_prov": 32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.55956500000019,
+          -7.3669809999999529
+        ]
+      },
+      "properties": {
+        "kl_dat_das": null,
+        "nm_dat_das": "Kantor BBWS Citanduy",
+        "thn_data": null,
+        "nm_ws": "Citanduy",
+        "kd_kem": null,
+        "kd_unor": null,
+        "ko_in": null,
+        "nm_balai": "BBWS CITANDUY",
+        "provinsi": "Jawa Barat",
+        "kab_kota": "Banjar",
+        "kecamatan": "Purwaharja",
+        "kel_desa": "Purwaharja",
+        "koordntr": null,
+        "jml_alt_brt": null,
+        "jns_alt_brt": null,
+        "alt_kom": null,
+        "koord_x": 108.55956500000001,
+        "koord_y": -7.366981,
+        "created_user": "Admin_BPII",
+        "last_edited_user": "Admin_BPII",
+        "created_date": 1616329897000,
+        "last_modified_date": 1616329897000,
+        "objectid": 13,
+        "kondisi": null,
+        "tgl_inspeksi": null,
+        "kd_prov": 32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.46622740000004,
+          -7.0097771999999736
+        ]
+      },
+      "properties": {
+        "kl_dat_das": null,
+        "nm_dat_das": "Posko Banjir BBWS Pemali Juana",
+        "thn_data": null,
+        "nm_ws": "Jratun Seluna",
+        "kd_kem": null,
+        "kd_unor": null,
+        "ko_in": null,
+        "nm_balai": "BBWS PEMALI JUANA",
+        "provinsi": "Jawa Tengah",
+        "kab_kota": "Semarang",
+        "kecamatan": "Pedurungan",
+        "kel_desa": "Kel. Gemah",
+        "koordntr": "Kepala Bidang OPSDA",
+        "jml_alt_brt": "88",
+        "jns_alt_brt": "Excavator Long Arm, Excavator Standart  , Dump Truck, Floating Excavator, Wheel Loader, Truck Tronton, Truck Trailer, Truck Crane, Mobile Pump, Submersible Pump, Pompa Air, Pompa Air Portable, Perahu Karet, Motor tempel perahu, Lighting Stand Tripod, Speed boat",
+        "alt_kom": "Radio, HP",
+        "koord_x": 110.46622739999999,
+        "koord_y": -7.0097771999999994,
+        "created_user": "Admin_BPII",
+        "last_edited_user": "Admin_BPII",
+        "created_date": 1616329897000,
+        "last_modified_date": 1616329897000,
+        "objectid": 14,
+        "kondisi": null,
+        "tgl_inspeksi": null,
+        "kd_prov": 33
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.18452500000001,
+          -3.6586666669999772
+        ]
+      },
+      "properties": {
+        "kl_dat_das": null,
+        "nm_dat_das": "Posko Satgas Bencana BWS Maluku",
+        "thn_data": null,
+        "nm_ws": "Ambon - Seram",
+        "kd_kem": null,
+        "kd_unor": null,
+        "ko_in": null,
+        "nm_balai": "BWS MALUKU",
+        "provinsi": "Maluku",
+        "kab_kota": "Ambon",
+        "kecamatan": "Teluk Ambon",
+        "kel_desa": "Rumah Tiga",
+        "koordntr": "Kasatker OP SDA Maluku",
+        "jml_alt_brt": null,
+        "jns_alt_brt": "Excavator, dump truck, pompa/alkon",
+        "alt_kom": null,
+        "koord_x": 128.18452500000001,
+        "koord_y": -3.6586666699999997,
+        "created_user": "Admin_BPII",
+        "last_edited_user": "Admin_BPII",
+        "created_date": 1616329897000,
+        "last_modified_date": 1616329897000,
+        "objectid": 26,
+        "kondisi": null,
+        "tgl_inspeksi": null,
+        "kd_prov": 81
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.15060600000027,
+          1.0085579999999936
+        ]
+      },
+      "properties": {
+        "kl_dat_das": null,
+        "nm_dat_das": "POSKO BANJIR TOLINGGULA",
+        "thn_data": null,
+        "nm_ws": "WS LIMBOTO-BOLANGO-BONE",
+        "kd_kem": null,
+        "kd_unor": null,
+        "ko_in": null,
+        "nm_balai": "BWS SULAWESI II",
+        "provinsi": "Gorontalo",
+        "kab_kota": "Gorontalo Utara",
+        "kecamatan": "Tolinggula",
+        "kel_desa": "Desa Tolinggula Ulu",
+        "koordntr": null,
+        "jml_alt_brt": null,
+        "jns_alt_brt": null,
+        "alt_kom": null,
+        "koord_x": 122.150606,
+        "koord_y": 1.0085579999999998,
+        "created_user": "Admin_BPII",
+        "last_edited_user": "Admin_BPII",
+        "created_date": 1616329897000,
+        "last_modified_date": 1616329897000,
+        "objectid": 27,
+        "kondisi": null,
+        "tgl_inspeksi": null,
+        "kd_prov": 75
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.42559300000016,
+          0.97697800000008783
+        ]
+      },
+      "properties": {
+        "kl_dat_das": null,
+        "nm_dat_das": "POSKO BANJIR BULONTIO",
+        "thn_data": null,
+        "nm_ws": "WS LIMBOTO-BOLANGO-BONE",
+        "kd_kem": null,
+        "kd_unor": null,
+        "ko_in": null,
+        "nm_balai": "BWS SULAWESI II",
+        "provinsi": "Gorontalo",
+        "kab_kota": "Gorontalo Utara",
+        "kecamatan": "Sumalata",
+        "kel_desa": "Desa Bulontio",
+        "koordntr": null,
+        "jml_alt_brt": null,
+        "jns_alt_brt": null,
+        "alt_kom": null,
+        "koord_x": 122.42559300000001,
+        "koord_y": 0.97697800000000012,
+        "created_user": "Admin_BPII",
+        "last_edited_user": "Admin_BPII",
+        "created_date": 1616329897000,
+        "last_modified_date": 1616329897000,
+        "objectid": 28,
+        "kondisi": null,
+        "tgl_inspeksi": null,
+        "kd_prov": 75
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.11666200000013,
+          0.89899700000017901
+        ]
+      },
+      "properties": {
+        "kl_dat_das": null,
+        "nm_dat_das": "POSKO BANJIR ANDEGILE ATINGGOLA",
+        "thn_data": null,
+        "nm_ws": "WS DUMOGA SANGKUB",
+        "kd_kem": null,
+        "kd_unor": null,
+        "ko_in": null,
+        "nm_balai": "BWS SULAWESI II",
+        "provinsi": "Gorontalo",
+        "kab_kota": "Gorontalo Utara",
+        "kecamatan": "Atinggola",
+        "kel_desa": "Desa Pinontoyonga",
+        "koordntr": null,
+        "jml_alt_brt": null,
+        "jns_alt_brt": null,
+        "alt_kom": null,
+        "koord_x": 123.11666200000001,
+        "koord_y": 0.89899700000000005,
+        "created_user": "Admin_BPII",
+        "last_edited_user": "Admin_BPII",
+        "created_date": 1616329897000,
+        "last_modified_date": 1616329897000,
+        "objectid": 29,
+        "kondisi": null,
+        "tgl_inspeksi": null,
+        "kd_prov": 75
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.98576300000013,
+          0.62983900000011772
+        ]
+      },
+      "properties": {
+        "kl_dat_das": null,
+        "nm_dat_das": "POSKO BANJIR BWS SULAWESI II",
+        "thn_data": null,
+        "nm_ws": "WS LIMBOTO-BOLANGO-BONE",
+        "kd_kem": null,
+        "kd_unor": null,
+        "ko_in": null,
+        "nm_balai": "BWS SULAWESI II",
+        "provinsi": "Gorontalo",
+        "kab_kota": "Gorontalo",
+        "kecamatan": "Limboto",
+        "kel_desa": "Kelurahan Hepuhulawa",
+        "koordntr": null,
+        "jml_alt_brt": null,
+        "jns_alt_brt": null,
+        "alt_kom": null,
+        "koord_x": 122.98576299999999,
+        "koord_y": 0.62983900000000004,
+        "created_user": "Admin_BPII",
+        "last_edited_user": "Admin_BPII",
+        "created_date": 1616329897000,
+        "last_modified_date": 1616329897000,
+        "objectid": 30,
+        "kondisi": null,
+        "tgl_inspeksi": null,
+        "kd_prov": 75
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.08258300000023,
+          0.62729999999999109
+        ]
+      },
+      "properties": {
+        "kl_dat_das": null,
+        "nm_dat_das": "POSKO BANJIR LOMAYA TAPA",
+        "thn_data": null,
+        "nm_ws": "WS LIMBOTO-BOLANGO-BONE",
+        "kd_kem": null,
+        "kd_unor": null,
+        "ko_in": null,
+        "nm_balai": "BWS SULAWESI II",
+        "provinsi": "Gorontalo",
+        "kab_kota": "Bonebolango",
+        "kecamatan": "Bulango Utara",
+        "kel_desa": "Desa Lomaya",
+        "koordntr": null,
+        "jml_alt_brt": null,
+        "jns_alt_brt": null,
+        "alt_kom": null,
+        "koord_x": 123.082583,
+        "koord_y": 0.62730000000000008,
+        "created_user": "Admin_BPII",
+        "last_edited_user": "Admin_BPII",
+        "created_date": 1616329897000,
+        "last_modified_date": 1616329897000,
+        "objectid": 31,
+        "kondisi": null,
+        "tgl_inspeksi": null,
+        "kd_prov": 75
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.06446900000003,
+          0.56942000000003645
+        ]
+      },
+      "properties": {
+        "kl_dat_das": null,
+        "nm_dat_das": "POSKO BANJIR ANDALAS KOTA GORONTALO",
+        "thn_data": null,
+        "nm_ws": "WS LIMBOTO-BOLANGO-BONE",
+        "kd_kem": null,
+        "kd_unor": null,
+        "ko_in": null,
+        "nm_balai": "BWS SULAWESI II",
+        "provinsi": "Gorontalo",
+        "kab_kota": "Kota Gorontalo",
+        "kecamatan": "Sipatana",
+        "kel_desa": "Kelurahan Tanggikiki",
+        "koordntr": null,
+        "jml_alt_brt": null,
+        "jns_alt_brt": null,
+        "alt_kom": null,
+        "koord_x": 123.064469,
+        "koord_y": 0.56942000000000004,
+        "created_user": "Admin_BPII",
+        "last_edited_user": "Admin_BPII",
+        "created_date": 1616329897000,
+        "last_modified_date": 1616329897000,
+        "objectid": 32,
+        "kondisi": null,
+        "tgl_inspeksi": null,
+        "kd_prov": 75
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.16727300000014,
+          0.53123900000002777
+        ]
+      },
+      "properties": {
+        "kl_dat_das": null,
+        "nm_dat_das": "POSKO BANJIR ALALE SUWAWA",
+        "thn_data": null,
+        "nm_ws": "WS LIMBOTO-BOLANGO-BONE",
+        "kd_kem": null,
+        "kd_unor": null,
+        "ko_in": null,
+        "nm_balai": "BWS SULAWESI II",
+        "provinsi": "Gorontalo",
+        "kab_kota": "Bonebolango",
+        "kecamatan": "Suwawa Tengah",
+        "kel_desa": "Desa Lombongo",
+        "koordntr": null,
+        "jml_alt_brt": null,
+        "jns_alt_brt": null,
+        "alt_kom": null,
+        "koord_x": 123.16727299999999,
+        "koord_y": 0.53123900000000002,
+        "created_user": "Admin_BPII",
+        "last_edited_user": "Admin_BPII",
+        "created_date": 1616329897000,
+        "last_modified_date": 1616329897000,
+        "objectid": 33,
+        "kondisi": null,
+        "tgl_inspeksi": null,
+        "kd_prov": 75
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.42962100000034,
+          0.50505200000009154
+        ]
+      },
+      "properties": {
+        "kl_dat_das": null,
+        "nm_dat_das": "POSKO BANJIR PINOGU SUWAWA",
+        "thn_data": null,
+        "nm_ws": "WS LIMBOTO-BOLANGO-BONE",
+        "kd_kem": null,
+        "kd_unor": null,
+        "ko_in": null,
+        "nm_balai": "BWS SULAWESI II",
+        "provinsi": "Gorontalo",
+        "kab_kota": "Bonebolango",
+        "kecamatan": "Suwawa Timur",
+        "kel_desa": "Desa Pinogu",
+        "koordntr": null,
+        "jml_alt_brt": null,
+        "jns_alt_brt": null,
+        "alt_kom": null,
+        "koord_x": 123.429621,
+        "koord_y": 0.50505200000000006,
+        "created_user": "Admin_BPII",
+        "last_edited_user": "Admin_BPII",
+        "created_date": 1616329897000,
+        "last_modified_date": 1616329897000,
+        "objectid": 34,
+        "kondisi": null,
+        "tgl_inspeksi": null,
+        "kd_prov": 75
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4633520000001,
+          0.33657200000016019
+        ]
+      },
+      "properties": {
+        "kl_dat_das": null,
+        "nm_dat_das": "OSKO BANJIR TALUDAA",
+        "thn_data": null,
+        "nm_ws": "WS LIMBOTO-BOLANGO-BONE",
+        "kd_kem": null,
+        "kd_unor": null,
+        "ko_in": null,
+        "nm_balai": "BWS SULAWESI II",
+        "provinsi": "Gorontalo",
+        "kab_kota": "Bonebolango",
+        "kecamatan": "Bone",
+        "kel_desa": "Desa Taludaa",
+        "koordntr": null,
+        "jml_alt_brt": null,
+        "jns_alt_brt": null,
+        "alt_kom": null,
+        "koord_x": 123.463352,
+        "koord_y": 0.33657200000000004,
+        "created_user": "Admin_BPII",
+        "last_edited_user": "Admin_BPII",
+        "created_date": 1616329897000,
+        "last_modified_date": 1616329897000,
+        "objectid": 35,
+        "kondisi": null,
+        "tgl_inspeksi": null,
+        "kd_prov": 75
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.53434100000004,
+          0.71299200000004248
+        ]
+      },
+      "properties": {
+        "kl_dat_das": null,
+        "nm_dat_das": "POSKO BANJIR BENDUNG PAGUYAMAN",
+        "thn_data": null,
+        "nm_ws": "WS PAGUYAMAN",
+        "kd_kem": null,
+        "kd_unor": null,
+        "ko_in": null,
+        "nm_balai": "BWS SULAWESI II",
+        "provinsi": "Gorontalo",
+        "kab_kota": "Gorontalo",
+        "kecamatan": "Tolangohula",
+        "kel_desa": "Desa Gandaria",
+        "koordntr": null,
+        "jml_alt_brt": null,
+        "jns_alt_brt": null,
+        "alt_kom": null,
+        "koord_x": 122.534341,
+        "koord_y": 0.71299200000000007,
+        "created_user": "Admin_BPII",
+        "last_edited_user": "Admin_BPII",
+        "created_date": 1616329897000,
+        "last_modified_date": 1616329897000,
+        "objectid": 36,
+        "kondisi": null,
+        "tgl_inspeksi": null,
+        "kd_prov": 75
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.3431250000001,
+          0.52294600000004721
+        ]
+      },
+      "properties": {
+        "kl_dat_das": null,
+        "nm_dat_das": "POSKO BANJIR TILAMUTA BOALEMO",
+        "thn_data": null,
+        "nm_ws": "WS PAGUYAMAN",
+        "kd_kem": null,
+        "kd_unor": null,
+        "ko_in": null,
+        "nm_balai": "BWS SULAWESI II",
+        "provinsi": "Gorontalo",
+        "kab_kota": "Boalemo",
+        "kecamatan": "Tilamuta",
+        "kel_desa": "Desa Modelomo",
+        "koordntr": null,
+        "jml_alt_brt": null,
+        "jns_alt_brt": null,
+        "alt_kom": null,
+        "koord_x": 122.343125,
+        "koord_y": 0.52294600000000002,
+        "created_user": "Admin_BPII",
+        "last_edited_user": "Admin_BPII",
+        "created_date": 1616329897000,
+        "last_modified_date": 1616329897000,
+        "objectid": 37,
+        "kondisi": null,
+        "tgl_inspeksi": null,
+        "kd_prov": 75
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.93139500000018,
+          0.50449900000018033
+        ]
+      },
+      "properties": {
+        "kl_dat_das": null,
+        "nm_dat_das": "POSKO BANJIR MARISA POHUWATO",
+        "thn_data": null,
+        "nm_ws": "WS PAGUYAMAN",
+        "kd_kem": null,
+        "kd_unor": null,
+        "ko_in": null,
+        "nm_balai": "BWS SULAWESI II",
+        "provinsi": "Gorontalo",
+        "kab_kota": "Pohuwato",
+        "kecamatan": "Buntulia",
+        "kel_desa": "Desa Taluduyunu",
+        "koordntr": null,
+        "jml_alt_brt": null,
+        "jns_alt_brt": null,
+        "alt_kom": null,
+        "koord_x": 121.93139499999999,
+        "koord_y": 0.50449900000000003,
+        "created_user": "Admin_BPII",
+        "last_edited_user": "Admin_BPII",
+        "created_date": 1616329897000,
+        "last_modified_date": 1616329897000,
+        "objectid": 38,
+        "kondisi": null,
+        "tgl_inspeksi": null,
+        "kd_prov": 75
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.34549200000004,
+          0.50478600000013785
+        ]
+      },
+      "properties": {
+        "kl_dat_das": null,
+        "nm_dat_das": "POSKO BANJIR MARISA POHUWATO",
+        "thn_data": null,
+        "nm_ws": "WS RANDANGAN",
+        "kd_kem": null,
+        "kd_unor": null,
+        "ko_in": null,
+        "nm_balai": "BWS SULAWESI II",
+        "provinsi": "Gorontalo",
+        "kab_kota": "Pohuwato",
+        "kecamatan": "Popayato Barat",
+        "kel_desa": "Desa Molosipa Utara",
+        "koordntr": null,
+        "jml_alt_brt": null,
+        "jns_alt_brt": null,
+        "alt_kom": null,
+        "koord_x": 121.34549199999999,
+        "koord_y": 0.50478600000000007,
+        "created_user": "Admin_BPII",
+        "last_edited_user": "Admin_BPII",
+        "created_date": 1616329897000,
+        "last_modified_date": 1616329897000,
+        "objectid": 39,
+        "kondisi": null,
+        "tgl_inspeksi": null,
+        "kd_prov": 75
+      }
+    }
+  ]
+}
