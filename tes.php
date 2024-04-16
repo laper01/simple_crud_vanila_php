@@ -12,10 +12,10 @@
 <header>
     <img src="https://dashindo.com/testfullstack/derpface.png" alt="Logo">
 </header>
-
+<?php ob_start(); // Start output buffering ?>
 <!-- Komponen 2: Form Input -->
 <section class="form-container">
-    <form id="input-form">
+    <form id="input-form" method="post" action="savePos.php">
         <div class="form-group">
             <label for="nama">Nama:</label>
             <input type="text" id="nama" name="nama" required>

@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const resultTableBody = document.querySelector('#result-table tbody');
 
   form.addEventListener('submit', function(event) {
-      event.preventDefault();
+      // event.preventDefault();
       
       const formData = new FormData(form);
       const nama = formData.get('nama');
@@ -24,6 +24,6 @@ document.addEventListener("DOMContentLoaded", function() {
       resultTableBody.appendChild(row);
 
       // Reset form setelah submit
-      form.reset();
+      // form.reset();
   });
 });
