@@ -10,6 +10,13 @@ if ($conn->connect_error) {
     die("Koneksi gagal: " . $conn->connect_error);
 }
 
+function cleanup_and_exit($conn, $location = '/')
+{
+    $conn->close();
+    header("Location: $location");
+    exit;
+}
+
 // Fungsi untuk validasi input
 function validateInput($data)
 {
@@ -58,8 +65,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Memeriksa apakah semua field telah diisi
     if (empty($_POST["nama"]) || empty($_POST["jenis"]) || empty($_POST["komentar"])) {
         $_SESSION['error_message'] = "nama jenis dan komentar wajib diisi.";
-        // Redirect to another page to prevent form resubmission
         header("Location: /");
+        cleanup_and_exit($conn);
+    } elseif (!empty($_POST["hp"]) && !preg_match('/^\d+$/', $_POST["hp"])) {
+        $_SESSION['error_message'] = "Nomor HP hanya boleh mengandung angka.";
+        header("Location: /");
+        cleanup_and_exit($conn);
     } else {
         // Memasukkan data ke dalam database
         $nama = $_POST["nama"];
@@ -68,6 +79,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $komentar = $_POST["komentar"];
 
         insertData($nama, $jenis, $hp, $komentar, $conn);
+
+        cleanup_and_exit($conn);
+
     }
 }
 
